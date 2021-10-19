@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Inicio de sesion en Advantage" tests="1" skipped="0" failures="1" errors="0" timestamp="2021-10-19T00:04:38" hostname="TELO20ZXS" time="27.676">
+  <properties/>
+  <testcase name="Inicio de sesion" classname="Inicio de sesion en Advantage" time="27.676">
+    <failure message="java.lang.AssertionError: &#10;Expected: is &quot;angio&quot;&#10;     but: was &quot;angie&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is &quot;angio&quot;
+     but: was &quot;angie&quot;
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:301)
+	at com.advantage.login.pruebas.stepdefinitions.LogInStepDefinition.theUserShouldSeeHisUsernameOnThePage(LogInStepDefinition.java:42)
+	at ✽.The user should see his username on the page(src/test/resources/Features/iniciosesion.feature:6)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[oct. 18, 2021 7:04:40 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 17651
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+oct. 18, 2021 7:04:43 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>

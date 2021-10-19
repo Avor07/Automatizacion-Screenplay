@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Inicio de sesion en Advantage" skipped="0" tests="1" time="26.7" timestamp="2021-10-18 07:04:38"><testcase name="Inicio de sesion"><failure message="&#10;Expected: is &quot;angio&quot;&#10;     but: was &quot;angie&quot;" type="java.lang.AssertionError">
+Expected: is "angio"
+     but: was "angie"</failure><system-err>
+Expected: is "angio"
+     but: was "angie"&#13;
+com.advantage.login.pruebas.stepdefinitions.LogInStepDefinition.theUserShouldSeeHisUsernameOnThePage(LogInStepDefinition.java:42)&#13;
+✽.The user should see his username on the page(src/test/resources/Features/iniciosesion.feature:6)&#13;
+</system-err></testcase></testsuite>
